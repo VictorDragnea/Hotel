@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"> </script>
+	<script>	
+		$(document).ready(function(){
+			$("#getQuote").on("click", function(){
+				$.getJSON("http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function(json){
+					//$(".quote_text_section").html(JSON.stringify(json));  --- raw json --- 
+					var html = json["quoteText"];
+					$(".quote_text_section").html(html);
+					var author = "- " + json["quoteAuthor"];
+					$(".quote_author_section").html(author);
+				});
+			});
+		})
+	</script>
+</head>
+
+<body>
+
+<p>bla bla bla</p>
+
+<div class="quote_text_section">
+	text area
+</div>
+
+<div class="quote_author_section">
+
+</div>
+
+<div class="quote">
+	<button id="getQuote">New quote</button>
+</div>
+
+<div>
+<a class="twitter-share-button" href="https://twitter.com/intent/tweet">Tweet</a>
+</div>
+
+</body>
+</html>
