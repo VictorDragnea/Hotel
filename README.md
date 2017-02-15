@@ -1,2 +1,0 @@
-# Hotel
-Proiect "Hotel" infoacademy
