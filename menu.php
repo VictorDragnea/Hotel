@@ -8,5 +8,7 @@
 			  	<li><a href="Contact.php">Contact</a></li>
 			  </ul>
  		  </div>
+ 		  <?php echo "MENUUUU"; ?>
 		</nav> <!-- END nav -->
 </div>
+

@@ -1,3 +1,15 @@
+<?php
+require_once ('head.php');
+require_once ('menu.php');
+
+
+
+require_once ('footer.php');
+?>
+
+
+
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -18,12 +30,6 @@
 		</script>
 	</head>
 	<body>
-		<?php 
-		include 'header.php';
 		
-		include 'Home.php';
-		
-		include 'footer.php';
-		?>
 	</body>
 </html>
