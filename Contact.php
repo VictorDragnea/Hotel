@@ -5,8 +5,8 @@
 	<br/>
 	
 	<h4>Address</h4>
-	<p>1111 Forest Trail/ PO Box 3459</p>
-	<p>Mammoth Lakes, Ca., USA 93546</p>
+	<p>1111 Drumu' Padurii/ PO Box 3459</p>
+	<p>Lacurile lu' Mamut, Ferentari, USA 93546</p>
 	<p>Reservations: 800.MAMMOTH</p>
 	
 	
